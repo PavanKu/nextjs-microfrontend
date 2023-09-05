@@ -1,0 +1,22 @@
+{
+    "url-1": [{
+        "url": "http://localhost:3001/_next/static/chunks/remoteEntry.js",
+        "id": "nextjs-child",
+        "module": "./about-us"
+    }],
+    "url-2": [{
+        "url": "http://localhost:3001/_next/static/chunks/remoteEntry.js",
+        "id": "nextjs-child",
+        "module": "./user-profile"
+    }],
+    "url-3": [{
+        "url": "http://localhost:3002/react/static/chunks/remoteEntry.js",
+        "id": "reactjs_child",
+        "module": "./App"
+    }],
+    "react": [{
+        "url": "http://localhost:3002/react/static/chunks/remoteEntry.js",
+        "id": "reactjs_child",
+        "module": "./App"
+    }]
+}
