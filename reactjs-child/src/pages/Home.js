@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
+    <>
     <div className="relative mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow m-10 p-4">
       <form action="" className="space-y-5">
         <div>
@@ -47,6 +50,10 @@ export default function Home() {
           Submit
         </button>
       </form>
+      <button type="button" className="rounded-lg border border-violet-500 bg-violet-500 px-4 py-2 text-center text-sm font-medium text-white shadow-sm transition-all hover:border-violet-700 hover:bg-violet-700 focus:ring focus:ring-violet-200 disabled:cursor-not-allowed disabled:border-violet-300 disabled:bg-violet-300 mt-5">
+        <Link to="/dashboard">Go to Dashboard</Link>
+      </button>
     </div>
+  </>
   );
 }

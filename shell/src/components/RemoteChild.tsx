@@ -21,7 +21,7 @@ const RemoteChild = ({ config }: RemoteChildProps) => {
   };
 
   const Component = React.lazy(() => getRemoteModule());
-  console.log('Component', Component);
+  // console.log('Component', Component);
 
   /* return React.createElement(
     React.Suspense,
